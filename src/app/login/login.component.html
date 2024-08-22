@@ -39,10 +39,10 @@
   
         <div *ngIf="passwordCtrl.invalid && passwordCtrl.touched" class="alert">
           <div *ngIf="passwordCtrl.errors?.['required']">
-            Password is required
+            Password is required.
           </div>
           <div *ngIf="passwordCtrl.errors?.['minlength']">
-            Password must be at least 8 characters
+            Password must be at least 8 characters.
           </div>
         </div>
       </div>
