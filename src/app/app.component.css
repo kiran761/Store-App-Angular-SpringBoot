@@ -1,4 +1,5 @@
-.app-login{
+body{
+    width:100vw;
     border: 2px solid green;display: flex; justify-content: center;height: 100vh;align-items: center;
     background-image: url("../assets/store.jpg");
     background-position: center;
