@@ -17,6 +17,10 @@ export class LoginComponent {
     console.log(this.email + this.password);
   }
 
+  onSubmit(){
+    if(this.email=="abcd@gmail.com" && this.password=="12345678")
+    this.router.navigate(['/home']);
+  }
   // onSubmit(){
   //   this.router.navigate(['/register']);
   // }

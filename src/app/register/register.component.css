@@ -39,6 +39,10 @@
     display: flex;
     justify-content: center;
 }
+.ok{
+    height: 100vh;
+    width: 100vw;
+}
 
 @media (max-width: 1000px) {
     .registrationform {

@@ -1,4 +1,5 @@
-<div class="loginform">
+<div class="d-flex flex-column justify-content-center align-items-center ok">
+  <div class="loginform">
     
     <form>
       <div class="title">Store Login Page</div>
@@ -20,9 +21,6 @@
             Email must be at least 8 characters
           </div>
         </div>
-      </div>
-      <div  class="form-text">
-        We'll never share your email with anyone else.
       </div>
   
       <div class="mb-3">
@@ -47,7 +45,7 @@
         </div>
       </div>
       <div class="button d-flex justify-content-center">
-        <button type="submit" class="btn btn-primary" [disabled]="!email || !password" (click)="print()">
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="!email || !password" (click)="print()">
           Submit
         </button>
       </div >
@@ -62,3 +60,4 @@
     </form>
   </div>
   
+</div>
